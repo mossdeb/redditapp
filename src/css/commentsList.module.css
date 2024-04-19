@@ -1,0 +1,26 @@
+.wraper{
+
+width: 100%;
+}
+
+.container{
+
+    border: 1px solid rgb(248, 248, 248);
+    width: 576px;
+    text-align: left;
+    margin: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+}
+
+
+.container h5{
+    width: 100%;
+}
+
+.container p{
+    width: 100%;
+    word-break:break-all;
+}

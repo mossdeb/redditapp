@@ -1,0 +1,87 @@
+.card{
+   /* border: 1px solid red; */
+    background-color: white;
+    border-radius:22px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:20px;
+    margin: 0px;
+    width: 100%;
+    float:left;
+    flex-flow: row;
+    margin-bottom: 30px;
+ 
+}
+
+.imageContainer{
+/* border: 2px solid red; */
+width: 100%;
+position: relative;
+min-height: 80px;
+text-align: left;;
+}
+
+.postImg{
+    width: 100%;
+    height: auto;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 40px;
+    
+}
+
+.postTitle{
+/* border: 1px solid red; */
+text-align: left;
+}
+
+.autorContainer{
+/* border: 1px solid red; */
+text-align: left;
+float:left;
+position: absolute;
+width: 94%;
+display: inline-flex;
+margin: 3%;
+top:90%;
+transform: translateY(-90%);
+background-color: #ffffff; /*  #ffffff90; */
+border-radius: 50px;
+
+}
+
+.subContainer{
+   /*border: 1px solid red; */
+    width: 100%;
+    line-height: 0px;
+    padding-top: 0px;
+    margin-left: 20px;
+
+}
+
+.autorImg{
+    width: 60px;
+    height: 60px;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50px;
+   /* border: 1px solid red;*/
+    
+}
+
+.commentsContainer{
+
+    border: 1px solid rgb(236, 236, 236);
+    width: 100%;
+    /* height: 60px;*/
+    min-height: 60px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    float:left;
+    border-radius: 20px;
+    padding-top: 18px;
+
+}
